@@ -1,9 +1,9 @@
-defmodule Tetris.MixProject do
+defmodule Tetriss.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :tetris,
+      app: :tetriss,
       version: "0.1.0",
       elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
